@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "Movie 1",
+        "image": "movie1.jpg",
+        "description": "Movie description"
+    },
+    {
+        "id": 2,
+        "name": "Movie 2",
+        "image": "movie2.jpg",
+        "biography": "Movie description"
+    }
+]
