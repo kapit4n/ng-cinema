@@ -6,16 +6,15 @@
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Today Movies
+          <a routerLink="/todays" routerLinkActive="active" class="nav-link">Today Movies
             <span class="sr-only">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Incoming Movies</a>
+          <a class="nav-link" routerLink="/incoming" routerLinkActive="active">Incoming Movies</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -37,16 +36,5 @@
     </div>
   </nav>
 
-  <h2> Today Movies</h2>
-  <carousel>
-    <slide>
-      <img src="assets/images/darkknight.jpg" alt="first slide" style="display: block; width: 100%;">
-    </slide>
-    <slide>
-      <img src="assets/images/jobs.jpg" alt="second slide" style="display: block; width: 100%;">
-    </slide>
-    <slide>
-      <img src="assets/images/businessman.jpg" alt="third slide" style="display: block; width: 100%;">
-    </slide>
-  </carousel>
+  <router-outlet></router-outlet>
 </div>
