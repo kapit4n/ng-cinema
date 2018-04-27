@@ -1,14 +1,20 @@
 [
     {
         "id": 1,
-        "name": "Movie 1",
-        "image": "movie1.jpg",
+        "name": "Dark Knight",
+        "image": "darkknight.jpg",
         "description": "Movie description"
     },
     {
         "id": 2,
-        "name": "Movie 2",
-        "image": "movie2.jpg",
+        "name": "Jobs",
+        "image": "jobs.jpg",
+        "biography": "Movie description"
+    },
+    {
+        "id": 2,
+        "name": "Businessman",
+        "image": "businessman.jpg",
         "biography": "Movie description"
     }
 ]

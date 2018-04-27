@@ -25,7 +25,7 @@ export class MovieService {
   movies: any[];
 
   /** json file URL */
-  private jsonFileURL: string = "../../assets/movies.json";
+  private jsonFileURL: string = "../assets/data/movies.json";
 
   /**
    * Movie constructor
